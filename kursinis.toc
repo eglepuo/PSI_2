@@ -1,0 +1,15 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ANOTACIJA}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ĮVADAS}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.}FUNKCINIAI REIKALAVIMAI}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.}NEFUNKCINIAI REIKALAVIMAI}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.}VARTOTOJO SĄSAJOS REIKALAVIMAI}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{IŠVADOS}{8}
