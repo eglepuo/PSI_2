@@ -8,8 +8,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.}FUNKCINIAI REIKALAVIMAI}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}NEFUNKCINIAI REIKALAVIMAI}{6}
+\contentsline {subsection}{\numberline {1.1.}Internetinės svetainės langai}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}VARTOTOJO SĄSAJOS REIKALAVIMAI}{7}
+\contentsline {subsection}{\numberline {1.2.}Prisijungimas}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{IŠVADOS}{8}
+\contentsline {subsection}{\numberline {1.3.}Atsijungimas}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.}Paskyros valdymas}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.}Naujienos}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.6.}Renginiai}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.7.}D.U.K.}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.8.}Dėstytojų sąrašas}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.9.}Dėstytojo puslapis}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.10.}Žinutės}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.11.}Konspektai}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.}NEFUNKCINIAI REIKALAVIMAI}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.}VARTOTOJO SĄSAJOS REIKALAVIMAI}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{IŠVADOS}{15}
