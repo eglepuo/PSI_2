@@ -32,6 +32,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.}NEFUNKCINIAI REIKALAVIMAI}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}VARTOTOJO SĄSAJOS REIKALAVIMAI}{14}
+\contentsline {subsection}{\numberline {2.1.}Vidinių interfeisų reikalavimai}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{IŠVADOS}{15}
+\contentsline {subsection}{\numberline {2.2.}Veikimo reikalavimai}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.}Diegimo reikalavimai}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.}Aptarnavimo ir priežiūros reikalavimai}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.}Tiražuojamumo reikalavimai}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.}Apsaugos reikalavimai}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.}Juridiniai reikalavimai}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.}VARTOTOJO SĄSAJOS REIKALAVIMAI}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{IŠVADOS}{18}

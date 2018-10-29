@@ -14,6 +14,16 @@
 \usepackage{wrapfig}
 \usepackage{sectsty}
 \usepackage{enumerate}
+\usepackage{longtable}
+\usepackage[export]{adjustbox}
+\usepackage{rotating}
+\usepackage{hhline}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs,calc}
+\usepackage{tabularx,colortbl}
+\usepackage[table]{xcolor}  
 
 \usepackage{enumitem}
 %PAKEISTA, tarpai tarp sąrašo elementų
@@ -227,7 +237,422 @@ D.U.K. pridėjimo scenarijus.
 \newpage
 
 \section{NEFUNKCINIAI REIKALAVIMAI}
-ANDRIUS
+2-ame skyriuje pateikiami nefunkciniai reikalavimai bei jų svarba. Aprašoma, kaip sistema turi veikti ir kaip ji turi būti kuriama.
+\subsection{Vidinių interfeisų reikalavimai}
+	\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Vidinių interfeisų reikalavimai.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+	\hline 
+\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+\hline
+\rowcolor{lightgray}
+\multicolumn{4}{|c|}{Vidinių interfeisų reikalavimai}\\		
+
+\hline
+\multicolumn{4}{|c|}{\bfseries OS naudojimo reikalavimai}\\	
+
+\hline
+	\multicolumn{2}{|c|}{NFR 1.1}&
+	{Tinklapis pritaikytas tiek kompiuteriams, tiek mobiliesiems įrenginiams.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+\hline
+	\multicolumn{1}{|c}{}&
+	\multicolumn{1}{c|}{NFR 1.2}&
+	{Puslapis pasiekiamas per visas populiariausias naršykles
+(Google Chrome, Mozilla Firefox, IE (nuo 8 versijos), Edge, Safari).
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+
+	\hline
+\multicolumn{4}{|c|}{\bfseries Sąveikos su DB reikalavimai}\\		
+				
+	\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{NFR 2.1}&
+		{Tinklapis turi turėti duomenų bazę, kurioje saugomi naudotojų duomenys, renginiai, D.U.K., konspektai bei dėstytojų puslapių informacija.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\	
+\hline		
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{NFR 2.2}&
+		{Duomenys saugomi reliaciniu būdu, naudojama MySQL
+duomenų bazių valdymo sistema.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\		
+		
+		\hline		
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{NFR 2.3}&
+		{Naudojama Microsoft Azure SQL Database paslauga.
+		}&
+		\multicolumn{1}{c|}{Pageidautina}\\	
+		
+		
+\hline
+\multicolumn{4}{|c|}{\bfseries Dokumentų mainų reikalavimai}\\		
+		
+	\hline
+		\multicolumn{2}{|c|}{FR 3.1}&
+		{Naudotojų įkeliamos nuotraukos turi būti,.jpg, .png, .bmp formato bei neviršyti 5MB dydžio.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\
+		
+	\hline
+\multicolumn{4}{|c|}{\bfseries Darbo kompiuterių tinkluose reikalavimai}\\		
+			
+	\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 4.1}&
+		{Duomenys perduodami naudojant HTTPS protokolą.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\	
+		
+	\hline
+\multicolumn{4}{|c|}{\bfseries Sąveikos su kitomis programomis reikalavimai}\\	
+\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 5.1}&
+		{Vartotojo autentifikacija vykdoma per is.vu.lt sistemą.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\
+		
+	\hline
+\multicolumn{4}{|c|}{\bfseries Programavimo aplinkos reikalavimai}\\	
+\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 6.1}&
+		{Tinklapis kuriamas PHP programavimo kalba, naudojant
+Symfony karkasą.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\		
+
+\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 6.2}&
+		{Kodo saugojimui ir dalinimuisi naudojama privati Github repositorija.
+		}&
+		\multicolumn{1}{c|}{Pageidautina}\\	
+		
+\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 6.3}&
+		{Naudojama PHPStorm programavimo aplinka.
+		}&
+		\multicolumn{1}{c|}{Pageidautina}\\									
+
+	\hline
+	\end{tabular}		
+	\end{table}
+	
+	
+\subsection{Veikimo reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Veikimo reikalavimai.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+	\hline 
+\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+\hline
+\rowcolor{lightgray}
+\multicolumn{4}{|c|}{Veikimo reikalavimai}\\		
+
+\hline
+\multicolumn{4}{|c|}{\bfseries Vaizdavimo reikalavimai}\\	
+
+\hline
+	\multicolumn{2}{|c|}{NFR 7.1}&
+	{Tinklapis turi būti palaikomas visose populiariausiose naršyklėse (IE (nuo 8 versijos), Edge, Chrome, Safari, Firefox).
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+\hline
+	\multicolumn{1}{|c}{}&
+	\multicolumn{1}{c|}{NFR 7.2}&
+	{Keičiant naršyklės dydį, tinklapis vaizdą pritaiko automatiškai.).
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+
+\hline
+	\multicolumn{1}{|c}{}&
+	\multicolumn{1}{c|}{NFR 7.3}&
+	{Data turi būti vaizduojama formatu YYYY-MM-DD, kur
+YYYY – metai, MM – mėnuo, DD – diena.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+	
+	\hline
+	\multicolumn{1}{|c}{}&
+	\multicolumn{1}{c|}{NFR 7.4}&
+	{Laikas turi būti vaizduojamas formatu hh:mm, kur hh - valandos, mm - minutės.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+	
+		\hline
+	\multicolumn{1}{|c}{}&
+	\multicolumn{1}{c|}{NFR 7.5}&
+	{Pavadinimai – ne daugiau 50 simbolių.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+
+	\hline
+\multicolumn{4}{|c|}{\bfseries Robastiškumo reikalavimai}\\		
+				
+	\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{NFR 8.1}&
+		{Sistemoje turi būti įdiegtos apsaugos priemonės nuo duomenų sugadinimo, praradimo, klaidingų duomenų įvedimo į DB.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\	
+\hline		
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{NFR 8.2}&
+		{Pranešti naudotojui, jei interneto ryšys nutrūko.
+		}&
+		\multicolumn{1}{c|}{Pageidautina}\\		
+				
+\hline
+\multicolumn{4}{|c|}{\bfseries Našumo reikalavimai}\\		
+		
+	\hline
+		\multicolumn{2}{|c|}{FR 9.1}&
+		{Užklausai įvykdyti turi užtekti ne daugiau nei 5 sekundžių.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\
+		
+	\hline
+\multicolumn{4}{|c|}{\bfseries Darbo kompiuterių tinkluose reikalavimai}\\		
+			
+	\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 10.1}&
+		{Svetainės talpinimo (hostingo) planas turi būti parinktas atsižvelgiant į prognozuojamą klientų srautą. Rekomenduojamas duomenų srautas – 50GB/mėn., vieta serveryje - iki 3GB.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\
+		
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 10.1}&
+		{Didžiausia leistina tinklapio sistemos apkrova yra 1000 naudotojų, prisijungusių vienu metu.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\
+	\hline
+	\end{tabular}		
+	\end{table}
+\subsection{Diegimo reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Diegimo reikalavimai.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+	\hline 
+\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+\hline
+\rowcolor{lightgray}
+\multicolumn{4}{|c|}{Diegimo reikalavimai}\\		
+
+\hline
+\multicolumn{4}{|c|}{\bfseries Ruošinio reikalavimai}\\	
+
+\hline
+	\multicolumn{2}{|c|}{NFR 11.1}&
+	{Dokumentacija
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+\hline
+	\multicolumn{1}{|c}{}&
+	\multicolumn{1}{c|}{NFR 11.2}&
+	{Hostingo prisijungimo duomenys.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+
+\hline
+	\multicolumn{1}{|c}{}&
+	\multicolumn{1}{c|}{NFR 11.3}&
+	{MS Azure prisijungimo duomenys.
+}&		
+	\multicolumn{1}{c|}{Pageidautina}\\
+	
+	
+	\hline
+\multicolumn{4}{|c|}{\bfseries Instaliavimo reikalavimai}\\		
+				
+	\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{NFR 12.1}&
+		{Apsilankęs internetiniame pusalpyje, vartotojas privalo sutikti su slapukų naudojimo sąlygomis.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\	
+				
+\hline
+\multicolumn{4}{|c|}{\bfseries Pradinio DB kaupimo reikalavimai}\\		
+		
+	\hline
+		\multicolumn{2}{|c|}{FR 13.1}&
+		{Turi būti sukurtos lentelės.}&
+		\multicolumn{1}{c|}{Būtina}\\
+		
+	\hline
+		\multicolumn{2}{|c|}{FR 13.2}&
+		{Naudotojų lentelėje turi būti administratoriaus duomenys.}&
+		\multicolumn{1}{c|}{Būtina}\\	
+		
+	\hline
+\multicolumn{4}{|c|}{\bfseries Sistemos įsisavinamumo reikalavimai}\\		
+			
+	\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 14.1}&
+		{Sistema turi funkcionuoti dvejomis kalbomis: lietuvių ir anglų.}&
+		\multicolumn{1}{c|}{Būtina}\\
+		
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 14.2}&
+		{Negali būti klaidinančių nuorodų.}&
+		\multicolumn{1}{c|}{Būtina}\\
+		
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 14.3}&
+		{Ikonos turi atspindėti mygtuko panaudojimą.}&
+		\multicolumn{1}{c|}{Būtina}\\
+		
+	\hline
+	\end{tabular}		
+	\end{table}
+\subsection{Aptarnavimo ir priežiūros reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Aptarnavimo ir priežiūros reikalavimai.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+	\hline 
+\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+\hline
+\rowcolor{lightgray}
+\multicolumn{4}{|c|}{Aptarnavimo ir priežiūros reikalavimai}\\		
+
+\hline
+	\multicolumn{2}{|c|}{NFR 15.1}&
+	{Atsiradęs naujas funkcionalumas turi būti įdiegtas per 5 darbo dienas.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+\hline
+	\multicolumn{1}{|c}{}&
+	\multicolumn{1}{c|}{NFR 15.2}&
+	{Rasta klaida turi būti ištaisyta per 2 darbo dienas.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+
+\hline
+	\multicolumn{1}{|c}{}&
+	\multicolumn{1}{c|}{NFR 15.3}&
+	{Į naudotojo laiškus su pastebėjimais ir skundais atsakyti reikia per 3 darbo dienas.
+}&		
+	\multicolumn{1}{c|}{Pageidautina}\\
+	
+\hline
+	\multicolumn{1}{|c}{}&
+	\multicolumn{1}{c|}{NFR 15.4}&
+	{Jei dėl planuojamo atnaujinimo reikės trumpam sustabdyti
+sistemos veiklą, naudotojai turi būti iš anksto įspėti ne mažiau nei prieš 24 val.
+}&		
+	\multicolumn{1}{c|}{Pageidautina}\\	
+			
+	\hline
+	\end{tabular}		
+	\end{table}
+\subsection{Tiražuojamumo reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Tiražuojamumo reikalavimai.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+	\hline 
+\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+\hline
+\rowcolor{lightgray}
+\multicolumn{4}{|c|}{Tiražuojamumo reikalavimai}\\		
+
+\hline
+	\multicolumn{2}{|c|}{NFR 16.1}&
+	{Internetinė svetainė turi veikti bet kuriame įrenginyje, kuris turi naršyklę ir interneto ryšį.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+			
+	\hline
+	\end{tabular}		
+	\end{table}
+\subsection{Apsaugos reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Apsaugos reikalavimai.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+	\hline 
+\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+\hline
+\rowcolor{lightgray}
+\multicolumn{4}{|c|}{Apsaugos reikalavimai}\\		
+
+\hline
+	\multicolumn{2}{|c|}{NFR 17.1}&
+	{Naudotojui prisijungiant prie sistemos vykdoma jo identifikacija.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+	
+\hline
+	\multicolumn{2}{|c|}{NFR 17.2}&
+	{Atsarginės DB kopijos daromos ne rečiau nei kas savaitę.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\	
+	
+\hline
+	\multicolumn{2}{|c|}{NFR 17.3}&
+	{Jei naudotojas neaktyvus ilgiau nei 30 minučių, jis turi būti automatiškai atjungiamas nuo sistemos.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\		
+			
+	\hline
+	\end{tabular}		
+	\end{table}
+\subsection{Juridiniai reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Juridiniai reikalavimai.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+	\hline 
+\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+\hline
+\rowcolor{lightgray}
+\multicolumn{4}{|c|}{Juridiniai reikalavimai}\\		
+
+\hline
+	\multicolumn{2}{|c|}{NFR 18.1}&
+	{Kuriant sistemą projekto komanda neturi naudotis nelegalia
+programine įranga.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\
+	
+\hline
+	\multicolumn{2}{|c|}{NFR 18.2}&
+	{Internetinėje svetainėje turi būti galimybė peržiūrėti naudojimosi sąlygas.
+}&		
+	\multicolumn{1}{c|}{Būtina}\\				
+	\hline
+	\end{tabular}		
+	\end{table}
 \newpage
 
 \section{VARTOTOJO SĄSAJOS REIKALAVIMAI}
