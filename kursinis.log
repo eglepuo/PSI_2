@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.15)  29 OCT 2018 19:52
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.10.15)  29 OCT 2018 20:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1469,48 +1469,922 @@ Overfull \hbox (38.58092pt too wide) in paragraph at lines 244--349
 [][] 
  []
 
+! Missing number, treated as zero.
+<to be read again> 
+                   |
+l.355 ...larx}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-Overfull \hbox (38.58092pt too wide) in paragraph at lines 355--445
-[][] 
- []
-
-[13]
-Overfull \hbox (44.58092pt too wide) in paragraph at lines 449--528
-[][] 
- []
-
-[14]
-Overfull \hbox (44.58092pt too wide) in paragraph at lines 532--571
-[][] 
- []
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   |
+l.355 ...larx}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (7.50093pt too wide) in paragraph at lines 575--593
-[][] 
- []
+! Package calc Error: `|' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 ...larx}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+                                                  
+I expected to see one of: + - * / )
+
+! Package array Error:  Illegal pream-token (\hline): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.444 ^^I\end{tabularx}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Package array Error:  Illegal pream-token (\hline): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.444 ^^I\end{tabularx}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (7.50093pt too wide) in paragraph at lines 597--627
-[][] 
- []
+! Package array Error:  Illegal pream-token (\hline): `c' used.
 
-[15]
-Overfull \hbox (7.50093pt too wide) in paragraph at lines 631--655
-[][] 
- []
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.444 ^^I\end{tabularx}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-[16] [17] [18] (./kursinis.aux)
-Package logreq Info: Writing requests to 'kursinis.run.xml'.
-\openout1 = `kursinis.run.xml'.
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
- ) 
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.444 ^^I\end{tabularx}
+                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.444 ^^I\end{tabularx}
+                       
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 25400 strings out of 493007
- 490810 string characters out of 6136718
- 991978 words of memory out of 5000000
- 29013 multiletter control sequences out of 15000+600000
+ 25397 strings out of 493007
+ 490801 string characters out of 6136718
+ 996978 words of memory out of 5000000
+ 29014 multiletter control sequences out of 15000+600000
  543198 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  67i,12n,96p,10540b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on kursinis.pdf (18 pages).
+Output written on kursinis.pdf (12 pages).
