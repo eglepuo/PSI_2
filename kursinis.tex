@@ -24,6 +24,7 @@
 \usepackage{booktabs,calc}
 \usepackage{tabularx,colortbl}
 \usepackage[table]{xcolor}  
+\usepackage{longtable}  
 
 \usepackage{enumitem}
 %PAKEISTA, tarpai tarp sąrašo elementų
@@ -55,8 +56,6 @@
 \cleardoublepage\pagenumbering{arabic}
 \setcounter{page}{2}
 \sectionnonum{ANOTACIJA}
-IEVA/KASPARAS
-
 Šiame dokumente specifikuojami kuriamos sistemos reikalavimai. Jie nagrinėjami trimis etapais. Pirmiausia aprašomi funkciniai reikalavimai, detaliai apibrėžiantys pagrindines ir pagalbines sistemos funkcijas. Toliau nagrinėjami nefunkciniai reikalavimai, apibrėžiantys kaip sistema turi veikti ir kaip ji turi būti kuriama. Galiausiai nusakomi vartotojo sąsąjos reikalavimai, kur pateikiami metaforos reikalavimai, formuluojamos užduotys, užduočių formulavimo kalbos reilkalavimai, užduočių formulavimo protokolo reikalavimai, interfeiso darnos ir standartizavimo reikalavimai, pranešimų formulavimo reikalavimai ir interfeiso individualizavimo reikalavimai.
 \\Rašant šį dokumentą buvo naudojamasi:
 \\1. dr. Vytauto Valaičio Internetinis puslapiu (https://klevas.mif.vu.lt/~valaitis/)
@@ -66,8 +65,6 @@ IEVA/KASPARAS
 %TURINYS
 \tableofcontents
 \sectionnonum{ĮVADAS}
-IEVA/KASPARAS
-
 Šio dokumento tikslas - pateikti tikslius reikalavimus kuriamam socialiniam tinklapiui, kuris palengvintų universiteto bendruomenės tarpusavio komunikaciją.
 \\\textbf{Temos aktualumas}
 \\Šiuo metu studentams dėstytojų skelbiama informacija yra išbarstyta internete, kurią norint surasti, prireikia nemažai laiko ir pastangų. Internete egzistuoja atskiras universiteto naujienų puslapis, o kiekvienas dėstytojas turi savo asmeninį tinklalapį bei atskirą elektroninį paštą. Tiek dėstytojui pasiekti studentus, tiek studentui - dėstytoją yra komplikuota ir labai nepatogu.
@@ -675,10 +672,229 @@ programine įranga.
 \newpage
 
 \section{VARTOTOJO SĄSAJOS REIKALAVIMAI}
-IEVA/KASPARAS
+3 skyriuje pateikiami vartotojo sąsajos reikalavimai, kuriuose pateikiama informaciją apie sistemos grafinį vaizdą, kurį mato vartotojas. Nagrinėjami naudotojui matomi puslapiai, ikonos, simboliai bei mygtukai, pavaizduoti prototipuose (žr. 1 priedas). Taip pat aprašomos jų funkcijos, paskirtys bei svarbumas.
+
+\subsection{Dalykinės srities metaforos reikalavimai}
+\begin{table}[H]
+	\caption{Vartotojo interfeiso reikalavimai. Dalykinės srities metaforos reikalavimai.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+\rowcolor{lightgray}
+\multicolumn{4}{|c|}{1. Dalykinės srities metaforos reikalavimai}\\		
+	\hline 
+\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+\hline
+	\multicolumn{2}{|c|}{VIR 1.1}&
+	{Pagrindinio puslapio atidarymas arba perkrovimas yra vaizduojamas puslapio logotipu}&		
+	\multicolumn{1}{c|}{Būtinas}\\
+\hline
+	\multicolumn{2}{|c|}{VIR 1.2}&
+	{Renginio arba naujienos įkėlimas yra vaizduojamas pliuso simboliu.}&		
+	\multicolumn{1}{c|}{Pageidautina}\\	
+\hline
+	\multicolumn{2}{|c|}{VIR 1.3}&
+	{Renginio arba naujienos redagavimas yra vaizduojamas pieštuko simboliu.}&		
+	\multicolumn{1}{c|}{Pageidautina}\\	
+\hline
+	\multicolumn{2}{|c|}{VIR 1.4}&
+	{Renginiai išdėstyti nuo eilės tvarka nuo artimiausios datos iki tolimiausios}&		
+	\multicolumn{1}{c|}{Būtina}\\				
+	\hline
+\end{tabular}		
+\end{table}
+
+
+\begin{longtable}{|p{2cm}|p{12,5cm}|p{2cm}|}\toprule
+\caption{Vartotojo interfeiso reikalavimai. Užduočių reikalavimai}\\
+\hline  \rowcolor{lightgray} 
+\multicolumn{3}{|c|}{2. Užduočių reikalavimai}\\ \hline 
+\multicolumn{1}{|l|}{\textbf{Kodas}} & \multicolumn{1}{c|}{\textbf{Reikalavimas}} & \multicolumn{1}{c|}{\textbf{Svarba}} \\ \hline 
+\multicolumn{3}{|c|}{Neprisiregistravusio naudotojo sąsajos užduotys}\\ \hline
+{VIR3.1}&{Prisiregistruoti prie aplikacijos}&{Būtinas} \\ \hline
+{VIR2.2}&{Susipažinti su puslapio taisyklėmis}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{Dėstytojo sąsajos užduotys}\\ \hline
+{VIR3.1}&{Prisijungti prie savo paskyros}&{Būtinas}\\ \hline
+{VIR3.2}&{Redaguoti savo prisijungimo slaptažodį}&{Būtinas}\\ \hline
+{VIR3.3}&{Atsijungti iš savo paskyros}&{Būtinas}\\ \hline
+{VIR3.4}&{Pridėti naujieną}&{Būtinas}\\ 	\hline
+{VIR3.5}&{Redaguoti renginį}&{Būtinas}\\	\hline
+{VIR3.6}&{Ištrinti renginį}&{Būtinas}\\ 	\hline
+{VIR3.7}&{Pridėti renginį}&{Būtinas}\\ 	\hline
+{VIR3.8}&{Redaguoti renginį}&{Būtinas}\\ 	\hline
+{VIR3.9}&{Ištrinti renginį}&{Būtinas}\\	\hline
+{VIR3.10}&{Siųsti žinutę}&{Būtinas}\\ 	\hline
+{VIR3.11}&{Peržiūrėti visas žinutes}&{Būtinas}\\ 	\hline
+{VIR3.12}&{Gauti žinutes}&{Būtinas}\\ 	\hline
+{VIR3.13}&{Peržvelgti visas naujienas}&{Būtinas}\\	\hline
+{VIR3.14}&{Peržvelgti visus renginius}&{Būtinas}\\	\hline
+{VIR3.15}&{Peržiūrėti D.U.K.}&{Būtinas}\\	\hline
+{VIR3.16}&{Pridėti D.U.K.}&{Būtinas}\\ 	\hline
+{VIR3.17}&{Peržiūrėti D.U.K.}&{Būtinas}\\	\hline
+{VIR3.18}&{Peržvelgti visus dėstytojus}&{Būtinas}\\ 	\hline
+{VIR3.19}&{Redaguoti asmeninį tinklalapį}&{Būtinas}\\ 	\hline
+\multicolumn{3}{|c|}{Studento sąsajos užduotys}\\	\hline
+{VIR4.1}&{Prisijungti prie savo paskyros}&{Būtinas}\\	\hline
+{VIR4.2}&{Redaguoti savo prisijungimo slaptažodį}&{Būtinas}\\	\hline
+{VIR4.3}&{Atsijungti iš savo paskyros}&{Būtinas}\\	\hline
+{VIR4.4}&{Siųsti žinutę}&{Būtinas}\\	\hline
+{VIR4.5}&{Peržiūrėti visas žinutes}&{Būtinas}\\	\hline
+{VIR4.6}&{Gauti žinutes}&{Būtinas}\\	\hline
+{VIR4.7}&{Peržvelgti visas naujienas}&{Būtinas}\\	\hline
+{VIR4.8}&{Peržvelgti visus renginius}&{Būtinas}\\	\hline
+{VIR4.9}&{Peržiūrėti D.U.K.}&{Būtinas}\\	\hline
+{VIR4.10}&{Peržiūrėti D.U.K.}&{Būtinas}\\	\hline
+{VIR4.11}&{Peržvelgti visus dėstytojus}&{Būtinas}\\	\hline
+{VIR4.12}&{Peržiūrėti konkretaus dėstytojo puslapį ir informaciją jame}&{Būtinas}\\	\hline
+{VIR4.13}&{Peržiūrėti visus konspektus}&{Būtinas}\\	\hline
+{VIR4.14}&{Įkelti konspektą}&{Būtinas}\\	\hline
+\multicolumn{3}{|c|}{Administratoriaus sąsajos reikalavimai}\\	\hline
+{VIR5.1}&{Pridėti naujienas/renginius/D.U.K.}&{Būtinas}\\	\hline
+{VIR5.2}&{Peržiūrėti naujienas/renginius/D.U.K. ir pašalinti nebeaktualius}&{Būtinas}\\	\hline
+{VIR5.3}&{Kurti sąrašus duomenų bazėje}&{Būtinas}\\	\hline
+{VIR5.4}&{Atnaujinti tinklalapį}&{Būtinas}\\	\hline
+{VIR5.5}&{Patikrinti konspektų turinį}&{Būtinas}\\	\hline
+{VIR5.6}&{Taisyti tinklalapio klaidas}&{Būtinas}\\	\hline
+{VIR5.7}&{Blokuoti naudotojus}&{Būtinas}\\	\hline
+\multicolumn{3}{|c|}{Bendri reikalavimai}\\	\hline
+{VIR6.1}&{Puslapio viršuje visada esantis meniu}&{Būtinas}\\	\hline
+{VIR6.2}&{Teksto įvedimo formų laukai}&{Būtinas}\\	\hline
+{VIR6.3}&{Ikonos}&{Būtinas}\\	\hline
+{VIR6.4}&{Matomas atsijungimo mygtukas}&{Būtinas}\\	\hline
+\end{longtable}
+
+\subsection{Užduočių formulavimo kalbos reikalavimai}
+\begin{table}[H]
+	\caption{Vartotojo interfeiso reikalavimai. Užduočių formulavimo kalbos reikalavimai}
+\begin{tabular}{|p{1cm}|p{1cm}|p{12,5cm}|p{3,5cm}|}
+	\hline
+\rowcolor{lightgray}
+\multicolumn{4}{|c|}{3. Užduočių formulavimo kalbos reikalavimai}\\		
+	\hline 
+\rowcolor{gray!50}
+\multicolumn{2}{|c|}{{\bfseries Kodas}}&\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+\hline
+\multicolumn{4}{|c|}{Įrankiai skirti naudotojui naudotis aplikacija}\\	\hline
+\multicolumn{2}{|c|}{VIR7.1}&{Grafinis meniu – vartotojo sąsaja su tinklalapiu}&\multicolumn{1}{c|}{Būtinas}\\
+\hline
+\multicolumn{2}{|c|}{VIR7.2}&{Mygtukai – naudojami siekiant patekti į kitus tinklalapio langus}&\multicolumn{1}{c|}{Būtinas}\\
+\hline
+\multicolumn{2}{|c|}{VIR7.3}&{Ikonos – interfeise naudojamos piktogramos}&\multicolumn{1}{c|}{Būtinas}\\
+\hline
+\multicolumn{2}{|c|}{VIR7.4}&{Patvirtinimo langai - langai prašantys naudotojo dar kartą patvirtinti tam tikrą svarbų veiksmą}&\multicolumn{1}{c|}{Būtinas}\\
+\hline
+\multicolumn{2}{|c|}{VIR7.5}&{Įvedimo laukai – naudojami naudotojui įvesti tekstinius duomenis}&\multicolumn{1}{c|}{Būtinas}\\
+\hline
+\multicolumn{2}{|c|}{VIR8.1}&{Naudotojo prisijungimo vardas turi būti validus el. pašto adresas egzistuojantis VU sistemoje}&\multicolumn{1}{c|}{Būtinas}\\
+\hline
+\multicolumn{2}{|c|}{VIR9.1}&{Naudotojo slaptažodis turi būti sudarytas iš raidžių (didžiųjų ir mažųjų), skaitmenų ir specialių simbolių}&\multicolumn{1}{c|}{Būtinas}\\
+\hline
+\multicolumn{2}{|c|}{VIR9.2}&{Slaptažodis turi būti ne trumpesnis nei 8 simboliai}&\multicolumn{1}{c|}{Būtinas}\\
+\hline
+\end{tabular}		
+\end{table}
+
+ \subsection{Užduočių formulavimo protokolo reikalavimai}
+ 
+ \begin{longtable}{|p{2cm}|p{12,5cm}|p{2cm}|}\toprule
+ \caption{Vartotojo interfeiso reikalavimai. Užduočių formulavimo protokolo reikalavimai}\\
+    \hline  \rowcolor{lightgray} \multicolumn{3}{|c|}{4. Užduočių formulavimo protokolo reikalavimai}\\	\hline
+    \multicolumn{1}{|c|}{\bf Kodas} & \multicolumn{1}{c|}{\bf Reikalavimas} & \multicolumn{1}{c|}{\bf Svarba} \\ \hline
+    \multicolumn{3}{|c|}{Prisiregistravimas prie tinklalapio}\\ \hline
+   {VIR10.1}&{Norėdamas prisiregistruoti naudotojas turi paspausti mygtuką „Registruotis“. Paspaudus jį išmetamas registracijos langas, kuriame naudotojas suveda savo duomenis (el. paštas, vardas, pavardė, slaptažodis, pasirenkama dėstytojo/studento kategorija, pasirinkus dėstytoją suvedamas dėstytojo identifikacijos kodas)}&{Būtinas}\\  \hline
+{VIR10.2}&{Paspaudus mygtuką „Registruotis“ registracijos lange tikrinama ar duomenys suvesti teisingai ir ar tokio naudotojo dar nėra duomenų bazėje, jei viskas gerai, naudotojas prijungiamas prie paskyros. Kitu atveju į ekraną išmetamos žinutės prie tų laukų, kurie yra suvesti klaidingai}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{Prisijungimas prie tinklalapio}\\ \hline
+{VIR11.1}&{Prisijungti gali tik registruotas naudotojas. Tai padaryti gali paspaudęs mygtuką „Prisijungti“ ir išmestame lange suvedęs savo prisijungimo duomenis (el.paštą, slaptažodį)}&{Būtinas}\\ \hline
+{VIR11.2}&{Paspaudus tvirtinantį prisijungimą mygtuką „Prisijungti“ duomenys yra patikrinami duomenų bazėje ir, jei viskas teisinga, naudotojas yra prijungiamas. Jei prisijungimas klaidingas, naudotojui išmetama žinutė, kad prijungimas nepavyko, prašoma patikrinti suvestus laukus}&{Būtinas}\\ \hline
+{VIR11.3}&{Prisijungiant galima pažymėti varnelę prie „Prisiminti mane“ ir kitą kartą naudotojas bus prijungiamas automatiškai, nevedant duomenų iš naujo}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{Pamirštas slaptažodis}\\ \hline
+{VIR12.1}&{Pamiršus slaptažodį galima paspausti ant mygtuko „Pamiršau slaptažodį“. Atsiradusiame lange reikia įvesti el.paštą, kuriuo naudotojas prisijungia.}&{Būtinas}\\ \hline
+{VIR12.2}&{Sistema radusi tokį el.paštą duomenų bazėje išsiunčia nuorodą nurodytu el.pašto adresu nukreipiančiu į formą leidžiančią pasikeisti slaptažodį}&{Būtinas}\\ \hline
+ \multicolumn{3}{|c|}{Pagrindinis juostinis meniu}\\ \hline
+{VIR13.1}&{Vaizduojamas viršutinėje puslapio dalyje, matomas kiekviename pasirinkimų lange}&{Būtinas}\\ \hline
+{VIR13.2}&{Kairiame kampe vaizduojamas tinklalapio logotipas ir pavadinimas „SocialVU“}&{Būtinas}\\ \hline
+{VIR13.3}&{Dešiniame kampe rodomas naudotojo el.paštas, kuris nukreipia į asmeninį profilį, kuriame galima rasti prisijungimo informaciją, ir atsijungimo mygtukas „Atsijungti“ bei „Žinutės“}&{Būtinas}\\ \hline
+{VIR13.4}&{Prisijungus dėstytojo aplinkoje šone atsiranda mygtukas „Mano puslapis“, kuris nukreipia į asmeninį dėstytojo puslapį}&{Būtinas}\\ \hline
+{VIR13.5}&{„Pagrindinis“ - atverčiamas pagrindinis, naujienų, puslapis}&{Būtinas}\\ \hline
+{VIR13.6}&{„D.U.K.“ - atverčiami dažniausiai užduodami klausimai su atsakymais}&{Būtinas}\\ \hline
+{VIR13.7}&{„Dėstytojai“ - atverčiamas visų dėstytojų sąrašas}&{Būtinas}\\ \hline
+{VIR13.8}&{„Renginiai“ - atverčiamas visų renginių sąrašas}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{„SocialVU“ logotipas}\\ \hline
+{VIR14.1}&{„Renginiai“ - atverčiamas visų renginių sąrašas}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{„Renginiai“}\\ \hline
+{VIR15.1}&{Pateikiamas pilnas renginių sąrašas su pavadinimu, data, trumpa informacija, kaina}&{Būtinas}\\ \hline
+{VIR15.2}&{Paspaudus ant padidinamo stiklo aktyvuojamas įvesties langas, kuriame galima ieškoti renginio suvedant tai, ko ieškoma}&{Būtinas}\\ \hline
+{VIR15.3}&{Paspaudus ant tekstinio lauko, kuriame galima pasirinkti datą, renginiai filtruojami pagal pasirinktą dieną}&{Būtinas}\\ \hline
+{VIR15.4}&{Paspaudus ant konkretaus renginio, išmetama papildoma informacija apie jį}&{Būtinas}\\ \hline
+{VIR15.5}&{Paspaudus „+“ (matoma tik dėstytojui) išmetama renginio pridėjimo forma}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{„Dėtytojai“}\\ \hline
+{VIR16.1}&{Pateikiamas pilnas dėstytojų sąrašas (vardas, pavardė, dėstomų dalykų sąrašas, nuotrauka)}&{Būtinas}\\ \hline
+{VIR16.2}&{Paspaudus ant padidinamo stiklo aktyvuojamas įvesties langas, kuriame galima ieškoti dėstytojo suvedant tai, ko ieškoma}&{Būtinas}\\ \hline
+{VIR16.3}&{Paspaudus ant konkretaus dėstytojo, naudotojas nukreipiamas į dėstytojo puslapį}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{„D.U.K.“}\\ \hline
+{VIR17.1}&{Pateikiamas pilnas D.U.K. sąrašas su atsakymais}&{Būtinas}\\ \hline
+{VIR17.2}&{Paspaudus ant padidinamo stiklo aktyvuojamas įvesties langas, kuriame galima ieškoti klausimo suvedant tai, ko ieškoma}&{Būtinas}\\ \hline
+{VIR17.3}&\multicolumn{1}{c|}{Paspaudus „+“ (matoma tik dėstytojui) išmetama renginio pridėjimo forma}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{„Žinutės“}\\ \hline
+{VIR18.1}&{Pateikiamas pilnas naudotojo gautų žinučių sąrašas}&{Būtinas}\\ \hline
+{VIR18.2}&{Paspaudus „Išsiųstos“ pateikiamas pilnas naudotojo išsiųstų žinučių sąrašas}&{Būtinas}\\ \hline
+{VIR18.3}&{Paspaudus „Visos“ pateikiamas pilnas naudotojo ir gautų, ir išsiųstų žinučių sąrašas}&{Būtinas}\\ \hline
+{VIR18.4}&{Paspaudus „Sukurti“ išmetama naujos žinutės forma, kurioje pasirenkamas gavėjas, bei užpildomi žinutės duomenys}&{Būtinas}\\ \hline
+{VIR19.4}&{Paspaudus ant padidinamo stiklo aktyvuojamas įvesties langas, kuriame galima ieškoti žinutės suvedant tai, ko ieškoma}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{„Konspektai“ (pasiekiami tik studentui)}\\ \hline
+{VIR19.1}&{Pateikiamas pilnas dėstomų dalykų sąrašas}&{Būtinas}\\ \hline
+{VIR19.2}&{Pasirinkus konkretų dalyką atidaromas sukeltų konspektų sąrašas, su trumpa informacija (autoriaus vardas, pavardė, sukūrimo data)}&{Būtinas}\\ \hline
+{VIR19.3}&{Pasirinkus konkretų konspektą atidaromas failo turinys}&{Būtinas}\\ \hline
+{VIR19.4}&{Paspaudus ant padidinamo stiklo aktyvuojamas įvesties langas, kuriame galima ieškoti konspekto suvedant tai, ko ieškoma}&{Būtinas}\\ \hline
+{VIR19.5}&{Paspaudus „+“ išmetama konspekto pridėjimo forma}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{„Mano puslapis“ (pasiekiamas tik dėstytojui)}\\ \hline
+{VIR20.1}&{Pateikiamas naudotojo asmeninis puslapis, kuriame informaciją gali pateikti pats}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{„Šoninė juosta“}\\ \hline
+{VIR21.1}&{Matoma dešinėje sistemos pusėje, matoma kiekviename pasirinkimų lange}&{Būtinas}\\ \hline
+\multicolumn{3}{|c|}{„El. paštas“}\\ \hline
+{VIR22.1}&{Paspaudus išmetama informacija apie naudotoją}&{Būtinas}\\ \hline
+{VIR22.2}&{Paspaudus ant mygtuko „Pakeisti slaptažodį“ naudotojui išmetama forma, kurioje galima pasikeisti savo prisijungimo slaptažodį}&{Būtinas}\\ \hline
+\end{longtable}
+
+\subsection{Pranešimo formulavimo reikalavimai}
+\begin{table}[H]
+	\caption{Vartotojo interfeiso reikalavimai. Pranešimo formulavimo reikalavimai}
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{2cm}|}
+	\hline \rowcolor{lightgray} \multicolumn{3}{|c|}{5. Pranešimo formulavimo reikalavimai}\\	\hline 
+\rowcolor{gray!50} \multicolumn{1}{|c|}{{\bfseries Kodas}}&\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&\multicolumn{1}{c|}{{\bfseries Svarba}}\\ \hline
+{VIR23}&	{Pranešimai turi būti parašyti laikantis gramatikos ir skyrybos taisyklių}&{Būtinas}\\ \hline	
+{VIR24}&	{Pranešimai turi būti aiškūs, suprantami, kuo trumpesni bei vienareikšmiški. Aprašo tik tą sritį, dėl kurios yra išmetami naudotojui}&{Būtinas}\\ \hline	
+{VIR25}&	{Patvirtinimai turi būti aiškūs, suprantami bei vienareikšmiški. Klausia tik patvirtinimo reikalingo užduočiai patvirtinti arba nutraukti}&{Būtinas}\\ \hline
+\end{tabular}		
+\end{table}
+
+\subsection{Interfeiso darnos ir standartizavimo reikalavimai}
+\begin{table}[H]
+	\caption{Vartotojo interfeiso reikalavimai. Interfeiso darnos ir standartizavimo reikalavimai}
+	\begin{tabular}{|p{2cm}|p{12,5cm}|p{2cm}|}
+	\hline \rowcolor{lightgray} \multicolumn{3}{|c|}{6. Interfeiso darnos ir standartizavimo reikalavimai}\\	\hline 
+\rowcolor{gray!50} \multicolumn{1}{|c|}{{\bfseries Kodas}}&\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&\multicolumn{1}{c|}{{\bfseries Svarba}}\\ \hline
+{VIR26}&	{Visi grafiniai objektai turi derėti tarpusavyje. Visi mygtukai, lentelės pranešimai, ikonos derančios išvaizdos.}&{Būtinas}\\ \hline	
+{VIR27}&	{Tinklalapyje naudojamos vienos paletės spalvos ir lengvai įskaitomas šriftas}&{Būtinas}\\ \hline	
+\end{tabular}		
+\end{table}
+
+\subsection{Interfeiso individualizavimo reikalavimai}
+\begin{table}[H]
+	\caption{Vartotojo interfeiso reikalavimai. Interfeiso individualizavimo reikalavimai}
+	\begin{tabular}{|p{2cm}|p{12cm}|p{3cm}|}
+	\hline \rowcolor{lightgray} \multicolumn{3}{|c|}{7. Interfeiso individualizavimo reikalavimai}\\	\hline 
+\rowcolor{gray!50} \multicolumn{1}{|c|}{{\bfseries Kodas}}&\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&\multicolumn{1}{c|}{{\bfseries Svarba}}\\ \hline
+{VIR28}&	{Sistemos spalvų pasirinkimas}&{Pageidautinas}\\ \hline	
+{VIR29}&	{Kalbos pasirinkimas sistemoje}&{Pageidautinas}\\ \hline	
+\end{tabular}		
+\end{table} 
+ 
 \newpage
 
 \sectionnonum{IŠVADOS}
-IEVA/KASPARAS
+Dokumente aprašyti kuriamo socialinio tinklapio, skirto palengvinti universiteto bendruomenės tarpusavio komunikaciją, funkciniai, nefunkciniai bei vartotojo sąsajos reikalavimai. Pateikiami aiškiai sunumeruoti ir apibrėžti funkciniai reikalavimai, o jų tarpusavio sąveika atvaizduota sekų diagramomis. Nefunkciniai reikalavimai sustrūkturizuoti į atskiras skiltis pagal tam tikrus aspektus ir kiekvienas reikalavimas aiškiai išskirtas bei sunumeruotas. Vartotojo sąsajos reikalavimai apibrėžti metaforos reikalavimų lentele bei suformuluotomis užduotimis įvairiems scenarijams, taip pat pateikiami darnos ir standartizavimo bei pranešimų formulavimo reikalavimai. Atsižvelgiant į projekto pakitimus, atitinkamai pataisytas pirmasis laboratorinis darbas.
 \newpage
 \end{document}
