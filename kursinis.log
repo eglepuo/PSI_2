@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  8 NOV 2018 13:15
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  8 NOV 2018 13:54
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1419,86 +1419,86 @@ latn;language=DFLT;mapping=tex-text;!
 \openout5 = `kursinis.toc'.
 
  [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 File: img/login.jpg Graphic file (type bmp)
 <img/login.jpg>
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 File: img/deleteNew.png Graphic file (type bmp)
 <img/deleteNew.png>
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 File: img/addNewEvent.png Graphic file (type bmp)
 <img/addNewEvent.png>
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 File: img/addDUK.png Graphic file (type bmp)
 <img/addDUK.png>
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
 File: img/editPage.png Graphic file (type bmp)
 <img/editPage.png>
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
 File: img/sendMes.png Graphic file (type bmp)
 <img/sendMes.png>
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
 File: img/summary.jpg Graphic file (type bmp)
 <img/summary.jpg>
 [11] [12]
-Overfull \hbox (38.58092pt too wide) in paragraph at lines 260--365
+Overfull \hbox (38.58092pt too wide) in paragraph at lines 258--363
 [][] 
  []
 
 
-Overfull \hbox (44.58092pt too wide) in paragraph at lines 371--461
+Overfull \hbox (44.58092pt too wide) in paragraph at lines 369--459
 [][] 
  []
 
 [13]
-Overfull \hbox (44.58092pt too wide) in paragraph at lines 465--544
+Overfull \hbox (44.58092pt too wide) in paragraph at lines 463--542
 [][] 
  []
 
 [14]
-Overfull \hbox (44.58092pt too wide) in paragraph at lines 548--587
+Overfull \hbox (44.58092pt too wide) in paragraph at lines 546--585
 [][] 
  []
 
 
-Overfull \hbox (7.50093pt too wide) in paragraph at lines 591--609
+Overfull \hbox (7.50093pt too wide) in paragraph at lines 589--607
 [][] 
  []
 
 
-Overfull \hbox (7.50093pt too wide) in paragraph at lines 613--643
+Overfull \hbox (7.50093pt too wide) in paragraph at lines 611--641
 [][] 
  []
 
 [15]
-Overfull \hbox (7.50093pt too wide) in paragraph at lines 647--671
+Overfull \hbox (7.50093pt too wide) in paragraph at lines 645--669
 [][] 
  []
 
@@ -1516,7 +1516,7 @@ latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Overfull \hbox (23.90492pt too wide) in paragraph at lines 680--707
+Overfull \hbox (23.90492pt too wide) in paragraph at lines 678--705
 [][] 
  []
 
@@ -1531,25 +1531,25 @@ latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Overfull \hbox (37.59993pt too wide) in alignment at lines 710--731
+Overfull \hbox (37.59993pt too wide) in alignment at lines 708--729
  [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 731
+Underfull \vbox (badness 10000) detected at line 729
  []
 
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Overfull \hbox (37.59993pt too wide) in alignment at lines 731--751
+Overfull \hbox (37.59993pt too wide) in alignment at lines 729--749
  [] [] [] 
  []
 
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Overfull \hbox (37.59993pt too wide) in alignment at lines 751--766
+Overfull \hbox (37.59993pt too wide) in alignment at lines 749--764
  [] [] [] 
  []
 
@@ -1674,12 +1674,12 @@ latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Overfull \hbox (41.5925pt too wide) in alignment at lines 801--821
+Overfull \hbox (41.5925pt too wide) in alignment at lines 799--819
  [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 821
+Underfull \vbox (badness 10000) detected at line 819
  []
 
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
@@ -1693,7 +1693,7 @@ latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Overfull \hbox (41.5925pt too wide) in alignment at lines 821--841
+Overfull \hbox (41.5925pt too wide) in alignment at lines 819--839
  [] [] [] 
  []
 
@@ -1711,7 +1711,7 @@ latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Overfull \hbox (41.5925pt too wide) in alignment at lines 841--859
+Overfull \hbox (41.5925pt too wide) in alignment at lines 839--857
  [] [] [] 
  []
 
@@ -1723,7 +1723,7 @@ latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Overfull \hbox (37.59993pt too wide) in paragraph at lines 864--871
+Overfull \hbox (37.59993pt too wide) in paragraph at lines 862--869
 [][] 
  []
 
@@ -1731,14 +1731,14 @@ Overfull \hbox (37.59993pt too wide) in paragraph at lines 864--871
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Overfull \hbox (37.59993pt too wide) in paragraph at lines 876--882
+Overfull \hbox (37.59993pt too wide) in paragraph at lines 874--880
 [][] 
  []
 
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Overfull \hbox (51.82631pt too wide) in paragraph at lines 887--893
+Overfull \hbox (51.82631pt too wide) in paragraph at lines 885--891
 [][] 
  []
 
