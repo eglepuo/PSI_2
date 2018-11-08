@@ -60,4 +60,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.6.}Interfeiso individualizavimo reikalavimai}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{IŠVADOS}{23}
+\contentsline {section}{REZULTATAI}{23}
