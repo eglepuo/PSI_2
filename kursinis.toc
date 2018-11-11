@@ -16,48 +16,48 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.}Paskyros valdymas}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.}Naujienos}{6}
+\contentsline {subsection}{\numberline {1.5.}Naujienos}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.}Renginiai}{7}
+\contentsline {subsection}{\numberline {1.6.}Renginiai}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.7.}D.U.K.}{8}
+\contentsline {subsection}{\numberline {1.7.}D.U.K.}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.8.}Dėstytojų sąrašas}{9}
+\contentsline {subsection}{\numberline {1.8.}Dėstytojų sąrašas}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.9.}Dėstytojo puslapis}{9}
+\contentsline {subsection}{\numberline {1.9.}Dėstytojo puslapis}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.10.}Žinutės}{10}
+\contentsline {subsection}{\numberline {1.10.}Žinutės}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.11.}Konspektai}{11}
+\contentsline {subsection}{\numberline {1.11.}Konspektai}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}NEFUNKCINIAI REIKALAVIMAI}{13}
+\contentsline {section}{\numberline {2.}NEFUNKCINIAI REIKALAVIMAI}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Vidinių interfeisų reikalavimai}{13}
+\contentsline {subsection}{\numberline {2.1.}Vidinių interfeisų reikalavimai}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Veikimo reikalavimai}{14}
+\contentsline {subsection}{\numberline {2.2.}Veikimo reikalavimai}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Diegimo reikalavimai}{15}
+\contentsline {subsection}{\numberline {2.3.}Diegimo reikalavimai}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.}Aptarnavimo ir priežiūros reikalavimai}{15}
+\contentsline {subsection}{\numberline {2.4.}Aptarnavimo ir priežiūros reikalavimai}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.}Tiražuojamumo reikalavimai}{15}
+\contentsline {subsection}{\numberline {2.5.}Tiražuojamumo reikalavimai}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.}Apsaugos reikalavimai}{16}
+\contentsline {subsection}{\numberline {2.6.}Apsaugos reikalavimai}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.}Juridiniai reikalavimai}{16}
+\contentsline {subsection}{\numberline {2.7.}Juridiniai reikalavimai}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}VARTOTOJO SĄSAJOS REIKALAVIMAI}{17}
+\contentsline {section}{\numberline {3.}VARTOTOJO SĄSAJOS REIKALAVIMAI}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Dalykinės srities metaforos reikalavimai}{17}
+\contentsline {subsection}{\numberline {3.1.}Dalykinės srities metaforos reikalavimai}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Užduočių formulavimo kalbos reikalavimai}{19}
+\contentsline {subsection}{\numberline {3.2.}Užduočių formulavimo kalbos reikalavimai}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Užduočių formulavimo protokolo reikalavimai}{19}
+\contentsline {subsection}{\numberline {3.3.}Užduočių formulavimo protokolo reikalavimai}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.}Pranešimo formulavimo reikalavimai}{22}
+\contentsline {subsection}{\numberline {3.4.}Pranešimo formulavimo reikalavimai}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.}Interfeiso darnos ir standartizavimo reikalavimai}{22}
+\contentsline {subsection}{\numberline {3.5.}Interfeiso darnos ir standartizavimo reikalavimai}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.}Interfeiso individualizavimo reikalavimai}{22}
+\contentsline {subsection}{\numberline {3.6.}Interfeiso individualizavimo reikalavimai}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{REZULTATAI}{23}
+\contentsline {section}{REZULTATAI}{24}
